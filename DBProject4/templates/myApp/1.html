@@ -1,0 +1,14 @@
+<html>
+    
+    <body bgcolor = #9900ff>
+        <center><h1><u>Job Details </u></h1></center>
+        {% for x in jobs %}
+         <h2>Location: {{x.loaction}}</h2>
+         <h2>Lastdate  : {{x.lastdate}}</h2>
+         <h2>Salary : {{x.sal}}</h2>
+         <h2>Job Discription : {{x.discri}}</h2>
+         <hr/>
+        {% endfor %}
+    
+    </body>
+</html>
